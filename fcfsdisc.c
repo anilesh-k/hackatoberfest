@@ -14,6 +14,7 @@ int main()
             printf("Enter the initial head position\n");
             scanf("%d",&head);
             q[0]=head;
+            //do it
             for(j=0;j<=n-1;j++)
             {
                         diff=abs(q[j+1]-q[j]);
